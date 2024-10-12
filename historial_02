@@ -1,0 +1,5 @@
+source ~/.bashrc && history -a
+cp ./repogit/ssh_backup.tgz .
+ls -l
+tar -xvzf ssh_backup.tgz 
+source ~/.bashrc && history -a
