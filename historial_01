@@ -1,0 +1,52 @@
+ll
+ll repogit/
+ssh-keygen -t ed25519
+ls -l .ssh/
+ls -ls .ssh/
+tar -cvzf  ssh_backup.tgz .ssh
+ls -l
+mv ssh_backup.tgz repogit/
+ll
+pwd
+ls -la
+ls -l .ssh/
+cat .ssh/id_ed25519.pub 
+cd repogit/
+git clone git@github.com:waz0056/UTNFRA_SO_1P2C_2024_WEISS.git
+ll
+git clone https://github.com/upszot/UTN-FRA_SO_Examenes.git
+ll
+./UTN-FRA_SO_Examenes/202410/script_Precondicion.sh
+~/.bashrc  && history -a
+ls -l
+ls -l UTNFRA_SO_1P2C_2024_WEISS
+ls -l RTA_SCRIPT_Examen_20241012
+ls -l UTNFRA_SO_1P2C_2024_WEISS/RTA_SCRIPT_Examen_20241012
+cd UTNFRA_SO_1P2C_2024_WEISS/
+git status
+cd RTA_SCRIPT_Examen_20241012/
+ls -l
+vim Punto_A.sh 
+ll
+sudo apt update
+sudo apt install tree
+tree
+vim Punto_A.sh 
+cat Punto_A.sh 
+history 
+ll
+./Punto_A.sh 
+tree /Examenes-UTN/
+git status
+tree
+cd ..
+tree
+cd RTA_SCRIPT_Examen_20241012/
+cat Punto_A.sh 
+git status
+cd ..
+git status
+cd ..
+cd UTNFRA_SO_1P2C_2024_WEISS/
+cp ../.bash_history historial_01
+history -a
