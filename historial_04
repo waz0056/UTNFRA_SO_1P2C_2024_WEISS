@@ -1,0 +1,21 @@
+    1  pwd
+    2  history
+    3  cd ./repogit/UTNFRA_SO_1P2C_2024_WEISS/RTA_SCRIPT_Examen_20241012/
+    4  cd
+    5  mkdir -p ~/Estructura_Asimetrica/correo
+    6  mkdir -p ~/Estructura_Asimetrica/cliente
+    7  sudo apt update
+    8  sudo apt install tree
+    9  tree
+   10  for i in $(seq 1 100); do     touch ~/Estructura_Asimetrica/correo/cartas_$i;     touch ~/Estructura_Asimetrica/cliente/cartas_$i; done
+   11  for i in $(seq 1 10); do     mkdir -p ~/Estructura_Asimetrica/correo/carteros_$i; done
+   12  tree ~/Estructura_Asimetrica/
+   13  tree Estructura_Asimetrica/ --noreport | pr -T -s' ' -w 80 --column 4
+   14  history
+   15  git status
+   16  cd ./repogit/UTNFRA_SO_1P2C_2024_WEISS/RTA_SCRIPT_Examen_20241012/
+   17  git status
+   18  ll
+   19  cd ..
+   20  ll
+   21  history > historial_04
