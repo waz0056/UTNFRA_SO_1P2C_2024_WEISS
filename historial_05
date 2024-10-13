@@ -1,0 +1,32 @@
+    1  /proc/meminfo
+    2  sudo /proc/meminfo
+    3  sudo /proc
+    4  cat /proc
+    5  cat /proc/meminfo
+    6  cat dmidecode -t chassis
+    7  dmidecode -t chassis
+    8  sudo dmidecode -t chassis
+    9  sudo dmidecode -t chassis | grep "Manufacturer" | awk -F ':' '{print $2}'
+   10  cat /proc/meminfo | grep MemTotal
+   11  ./repogit/UTNFRA_SO_1P2C_2024_WEISS/RTA_SCRIPT_Examen_20241012/Punto_D.sh 
+   12  ./repogit/UTNFRA_SO_1P2C_2024_WEISS/RTA_SCRIPT_Examen_20241012/Punto_E.sh 
+   13  cat /repogit/UTNFRA_SO_1P2C_2024_WEISS/RTA_ARCHIVOS_Examen_20241012/Filtro_Basico.txt
+   14  cd /repogit/UTNFRA_SO_1P2C_2024_WEISS/RTA_ARCHIVOS_Examen_20241012/
+   15  cd /repogit/UTNFRA_SO_1P2C_2024_WEISS/RTA_ARCHIVOS_Examen_20241012
+   16  cd /repogit/UTNFRA_SO_1P2C_2024_WEISS/
+   17  cd ./repogit/UTNFRA_SO_1P2C_2024_WEISS/RTA_ARCHIVOS_Examen_20241012/
+   18  ll
+   19  sudo rm -rf Filtro_Basico.txt/
+   20  ll
+   21  cd ..
+   22  RTA_SCRIPT_Examen_20241012/
+   23  cd RTA_SCRIPT_Examen_20241012/
+   24  ./Punto_E.sh 
+   25  cd ..
+   26  cd RTA_ARCHIVOS_Examen_20241012/
+   27  ll
+   28  cat Filtro_Basico.txt 
+   29  cd ..
+   30  git status
+   31  ll
+   32  history > historial_05
