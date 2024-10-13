@@ -4,3 +4,64 @@ source ~/.bashrc && history -a
 cat /etc/fstab | grep "/Examenes-UTN"
 reboot
 sudo reboot
+    1  source ~/.bashrc && history -a
+    2  ./repogit/UTNFRA_SO_1P2C_2024_WEISS/RTA_SCRIPT_Examen_20241012/Punto_A.sh 
+    3  ./repogit/UTNFRA_SO_1P2C_2024_WEISS/RTA_SCRIPT_Examen_20241012/Punto_B.sh 
+    4  cat /etc/fstab | grep "/Examenes-UTN"
+    5  reboot
+    6  sudo reboot
+    7  cat /etc/fstab | grep "/Examenes-UTN"
+    8  cp ./repogit/ssh_backup.tgz .
+    9  tar -xvzf ssh_backup.tgz 
+   10  cat repogit/UTNFRA_SO_1P2C_2024_WEISS/RTA_SCRIPT_Examen_20241012/Punto_C.sh 
+   11  ll /etc/passwd
+   12  cat /etc/passwd
+   13  sudo cat /etc/shadow
+   14  sudo grep vagrant /etc/shadow
+   15  sudo grep vagrant /etc/shadow | awk -F ':' '{print $2}'
+   16  man useradd
+   17  ./repogit/UTNFRA_SO_1P2C_2024_WEISS/RTA_SCRIPT_Examen_20241012/Punto_C.sh 
+   18  cat /etc/passwd | grep p1c2_2024_
+   19  ls -l /datos/dir-home
+   20  sudo grep -E "p1c2_2024_A1|p1c2_2024_A2|p1c2_2024_A3|p1c2_2024_P1" /etc/shadow
+   21  cd repogit/UTNFRA_SO_1P2C_2024_WEISS/RTA_SCRIPT_Examen_20241012/
+   22  pwd
+   23  sudo chown -R p1c2_2024_A1:p1c2_2024_gAlumno /Examenes-UTN/alumno_1
+   24  sudo chmod 750 /Examenes-UTN/alumno_1
+   25  sudo chown -R p1c2_2024_A2:p1c2_2024_A2 /Examenes-UTN/alumno_2
+   26  sudo chmod 700 /Examenes-UTN/alumno_2
+   27  sudo chown -R p1c2_2024_A3:p1c2_2024_A3 /Examenes-UTN/alumno_3
+   28  sudo chmod 700 /Examenes-UTN/alumno_3
+   29  sudo chown -R p1c2_2024_P1:p1c2_2024_gProfesores /Examenes-UTN/profesores
+   30  sudo chmod 775 /Examenes-UTN/profesores
+   31  VALIDAR_FILE="/home/vagrant/repogit/UTNFRA_SO_1P2C_2024_WEISS/RTA_SCRIPT_Examen_20241012/validar.txt"
+   32  echo "Usuario: p1c2_2024_A1, Carpeta: /Examenes-UTN/alumno_1" >> $VALIDAR_FILE
+   33  sudo -u p1c2_2024_A1 sh -c "cd /Examenes-UTN/alumno_1 && whoami" >> $VALIDAR_FILE
+   34  echo "-----------------------" >> $VALIDAR_FILE
+   35  echo "Usuario: p1c2_2024_A2, Carpeta: /Examenes-UTN/alumno_2" >> $VALIDAR_FILE
+   36  sudo -u p1c2_2024_A2 sh -c "cd /Examenes-UTN/alumno_2 && whoami" >> $VALIDAR_FILE
+   37  echo "-----------------------" >> $VALIDAR_FILE
+   38  echo "Usuario: p1c2_2024_A3, Carpeta: /Examenes-UTN/alumno_3" >> $VALIDAR_FILE
+   39  sudo -u p1c2_2024_A3 sh -c "cd /Examenes-UTN/alumno_3 && whoami" >> $VALIDAR_FILE
+   40  echo "-----------------------" >> $VALIDAR_FILE
+   41  echo "Usuario: p1c2_2024_P1, Carpeta: /Examenes-UTN/profesores" >> $VALIDAR_FILE
+   42  sudo -u p1c2_2024_P1 sh -c "cd /Examenes-UTN/profesores && whoami" >> $VALIDAR_FILE
+   43  echo "-----------------------" >> $VALIDAR_FILE
+   44  ll
+   45  cat validar.txt 
+   46  cd ..
+   47  ll
+   48  cp /home/vagrant/.bash_history ./historial_03
+   49  git status
+   50  git add .
+   51  git status
+   52  git commit -m "Tercer commit: Punto C"
+   53  git push origin main
+   54  history
+   55  cp ../.bash history >> historial_03
+   56  cp ../.bash history historial_03
+   57  cd RTA_SCRIPT_Examen_20241012/
+   58  ll
+   59  cd ..
+   60  ll
+   61  history >> historial_03
