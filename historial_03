@@ -1,0 +1,6 @@
+source ~/.bashrc && history -a
+./repogit/UTNFRA_SO_1P2C_2024_WEISS/RTA_SCRIPT_Examen_20241012/Punto_A.sh 
+./repogit/UTNFRA_SO_1P2C_2024_WEISS/RTA_SCRIPT_Examen_20241012/Punto_B.sh 
+cat /etc/fstab | grep "/Examenes-UTN"
+reboot
+sudo reboot

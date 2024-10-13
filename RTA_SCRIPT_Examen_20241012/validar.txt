@@ -1,0 +1,12 @@
+Usuario: p1c2_2024_A1, Carpeta: /Examenes-UTN/alumno_1
+p1c2_2024_A1
+-----------------------
+Usuario: p1c2_2024_A2, Carpeta: /Examenes-UTN/alumno_2
+p1c2_2024_A2
+-----------------------
+Usuario: p1c2_2024_A3, Carpeta: /Examenes-UTN/alumno_3
+p1c2_2024_A3
+-----------------------
+Usuario: p1c2_2024_P1, Carpeta: /Examenes-UTN/profesores
+p1c2_2024_P1
+-----------------------
