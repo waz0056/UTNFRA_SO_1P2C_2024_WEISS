@@ -1,0 +1,31 @@
+    1  source ~/.bashrc && history -a
+    2  cp ./repogit/ssh_backup.tgz .
+    3  tar -xvzf ssh_backup.tgz 
+    4  curl -s ifconfig.me
+    5  git remote get-url origin
+    6  cd ./repogit/UTNFRA_SO_1P2C_2024_WEISS/
+    7  git remote get-url origin
+    8  sudo /etc/shadow grep 'whoami'
+    9  sudo /etc/shadow grep "whoami"
+   10  sudo /etc/shadow grep $(whoami)
+   11  sudo cat /etc/shadow
+   12  whoami
+   13  sudo /etc/shadow grep vagrant
+   14  sudo grep vagrant /etc/shadow
+   15  sudo grep vagrant /etc/shadow | awk -F ':' '{print $2}'
+   16  git remote get-url origin
+   17  git status
+   18  ./RTA_SCRIPT_Examen_20241012/Punto_F.sh 
+   19  cat RTA_ARCHIVOS_Examen_20241012/Filtro_Avanzado.txt 
+   20  git status
+   21  git add .
+   22  git status
+   23  git commit -m "Punto F"
+   24  ll
+   25  RTA_ARCHIVOS_Examen_20241012/
+   26  ll
+   27  cd RTA_A
+   28  cd RTA_ARCHIVOS_Examen_20241012/
+   29  ll
+   30  history
+   31  history > historial_07
