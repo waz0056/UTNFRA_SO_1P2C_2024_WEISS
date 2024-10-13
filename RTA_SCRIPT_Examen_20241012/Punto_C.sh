@@ -27,7 +27,7 @@ sudo chown -R p1c2_2024_P1:p1c2_2024_gProfesores /Examenes-UTN/profesores
 sudo chmod 775 /Examenes-UTN/profesores  # Dueño rwx, Grupo rwx, Otros r-x
 
 # Defino la ruta del archivo de validación
-VALIDAR_FILE="/home/vagrant/repogit/UTNFRA_SO_1P2C_2024_WEISS/RTA_SCRIPT_Examen_20241012/validar.txt"
+VALIDAR_FILE="/home/vagrant/repogit/UTNFRA_SO_1P2C_2024_WEISS/RTA_ARCHIVOS_Examen_20241012/validar.txt"
 
 # Borro el archivo si ya existe
 > $VALIDAR_FILE
