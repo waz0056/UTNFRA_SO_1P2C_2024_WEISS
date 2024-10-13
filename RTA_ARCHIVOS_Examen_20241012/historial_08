@@ -1,0 +1,23 @@
+    1  cd ./repogit/UTNFRA_SO_1P2C_2024_WEISS/
+    2  ll
+    3  cat README.md
+    4  cat ./RTA_SCRIPT_Examen_20241012/
+    5  cd ./RTA_SCRIPT_Examen_20241012/
+    6  cat Punto_A.sh 
+    7  cd ..
+    8  ll
+    9  vim README.md
+   10  cat README.md
+   11  git status
+   12  git add .
+   13  git commit -m "Update archivo readme"
+   14  git status
+   15  git commit -m "Update archivo readme"
+   16  ll
+   17  cd
+   18  cp ./repogit/ssh_backup.tgz .
+   19  tar -xvzf ssh_backup.tgz 
+   20  cd ./repogit/UTNFRA_SO_1P2C_2024_WEISS/RTA_ARCHIVOS_Examen_20241012/
+   21  ll
+   22  history
+   23  history > historial_08
